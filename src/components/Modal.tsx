@@ -6,7 +6,7 @@ interface Props {
 }
 const Modal = ({children}: Props) => {
 
-    const closerModal = (e: React.MouseEvent):void => {
+    const closerModal = ():void => {
         const modal = document.querySelector("#modal");
         modal!.classList.add("hide");
 
